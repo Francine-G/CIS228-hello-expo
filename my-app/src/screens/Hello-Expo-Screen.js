@@ -132,7 +132,6 @@ export default function WelcomeScreen() {
           ]}
         >
           <Text style={styles.inputLabel}>What's your name?</Text>
-          <Text style={styles.inputHint}>We'll use this to personalize your experience</Text>
 
           {/* TextInput */}
           <View style={[styles.inputContainer, isFocused && styles.inputContainerFocused]}>
@@ -265,12 +264,6 @@ const styles = StyleSheet.create({
     marginBottom: 4,
     alignSelf: 'flex-start',
     letterSpacing: 0.2,
-  },
-  inputHint: {
-    fontSize: 13,
-    color: '#7FA898',
-    marginBottom: 16,
-    alignSelf: 'flex-start',
   },
   inputContainer: {
     width: '100%',
