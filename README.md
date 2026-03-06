@@ -1,6 +1,6 @@
 # 🐱 CatME!
 
-**Your purrsonalized profile app** — a fun, cat-themed React Native welcome screen.
+**Your purrsonalized profile app** 
 
 ---
 
